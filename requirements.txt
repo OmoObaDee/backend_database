@@ -1,0 +1,13 @@
+annotated-types==0.7.0
+cffi==2.0.0
+cryptography==46.0.3
+dotenv==0.9.9
+greenlet==3.2.4
+pycparser==2.23
+pydantic==2.12.3
+pydantic_core==2.41.4
+PyMySQL==1.1.2
+python-dotenv==1.1.1
+SQLAlchemy==2.0.44
+typing-inspection==0.4.2
+typing_extensions==4.15.0

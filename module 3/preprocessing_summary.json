@@ -1,0 +1,52 @@
+{
+  "original_shape": [
+    1599,
+    12
+  ],
+  "final_shape": [
+    1359,
+    22
+  ],
+  "selected_features": [
+    "alcohol",
+    "volatile acidity",
+    "sulphates",
+    "citric acid",
+    "density",
+    "chlorides",
+    "total sulfur dioxide",
+    "residual sugar_log",
+    "total sulfur dioxide_log",
+    "chlorides_log",
+    "FA_to_VA_ratio",
+    "citric_over_total_acid",
+    "alcohol_acid_interaction",
+    "alcohol_density_ratio",
+    "sulphate_citric_interaction",
+    "total_acidity",
+    "ph_acidity_balance"
+  ],
+  "engineered_features": [
+    "total sulfur dioxide",
+    "residual sugar_log",
+    "total sulfur dioxide_log",
+    "chlorides_log",
+    "FA_to_VA_ratio",
+    "citric_over_total_acid",
+    "alcohol_acid_interaction",
+    "alcohol_density_ratio",
+    "sulphate_citric_interaction",
+    "total_acidity",
+    "ph_acidity_balance"
+  ],
+  "train_samples": 764,
+  "val_samples": 255,
+  "test_samples": 340,
+  "scaling_method": "StandardScaler",
+  "outlier_treatment": "IQR_capping",
+  "log_transformed": [
+    "residual sugar",
+    "total sulfur dioxide",
+    "chlorides"
+  ]
+}
