@@ -29,13 +29,13 @@ depends_on: Union[str, Sequence[str], None] = None
 
 def upgrade() -> None:
     op.execute("""
-    ALTER TABLE user
-    ADD COLUMN userType varchar(100)
+    ALTER TABLE users
+    ADD COLUMN userType varchar(100) DEFAULT "student"
 """)
     pass
 def downgrade() -> None:
     op.execute("""
-    ALTER TABLE user
+    ALTER TABLE users
     DROP COLUMN userType
 """)
     pass
