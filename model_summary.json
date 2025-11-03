@@ -1,0 +1,12 @@
+{
+  "model_type": "RandomForestClassifier",
+  "validation_accuracy": 0.7398,
+  "test_accuracy": 0.8455,
+  "selected_features": [
+    "Credit_History",
+    "Married",
+    "Education",
+    "TotalIncome",
+    "Income_Loan_Ratio"
+  ]
+}
