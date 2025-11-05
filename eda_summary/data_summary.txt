@@ -1,0 +1,89 @@
+=== DATA SUMMARY REPORT ===
+
+Dataset Shape: (25480, 12)
+
+DATA TYPES:
+case_id                   object
+continent                 object
+education_of_employee     object
+has_job_experience        object
+requires_job_training     object
+no_of_employees            int64
+yr_of_estab                int64
+region_of_employment      object
+prevailing_wage          float64
+unit_of_wage              object
+full_time_position        object
+case_status               object
+dtype: object
+
+MISSING VALUES:
+case_id                  0
+continent                0
+education_of_employee    0
+has_job_experience       0
+requires_job_training    0
+no_of_employees          0
+yr_of_estab              0
+region_of_employment     0
+prevailing_wage          0
+unit_of_wage             0
+full_time_position       0
+case_status              0
+dtype: int64
+
+DESCRIPTIVE STATS:
+       case_id continent education_of_employee has_job_experience  \
+count    25480     25480                 25480              25480   
+unique   25480         6                     4                  2   
+top     EZYV01      Asia            Bachelor's                  Y   
+freq         1     16861                 10234              14802   
+mean       NaN       NaN                   NaN                NaN   
+std        NaN       NaN                   NaN                NaN   
+min        NaN       NaN                   NaN                NaN   
+25%        NaN       NaN                   NaN                NaN   
+50%        NaN       NaN                   NaN                NaN   
+75%        NaN       NaN                   NaN                NaN   
+max        NaN       NaN                   NaN                NaN   
+
+       requires_job_training  no_of_employees   yr_of_estab  \
+count                  25480     25480.000000  25480.000000   
+unique                     2              NaN           NaN   
+top                        N              NaN           NaN   
+freq                   22525              NaN           NaN   
+mean                     NaN      5667.043210   1979.409929   
+std                      NaN     22877.928848     42.366929   
+min                      NaN       -26.000000   1800.000000   
+25%                      NaN      1022.000000   1976.000000   
+50%                      NaN      2109.000000   1997.000000   
+75%                      NaN      3504.000000   2005.000000   
+max                      NaN    602069.000000   2016.000000   
+
+       region_of_employment  prevailing_wage unit_of_wage full_time_position  \
+count                 25480     25480.000000        25480              25480   
+unique                    5              NaN            4                  2   
+top               Northeast              NaN         Year                  Y   
+freq                   7195              NaN        22962              22773   
+mean                    NaN     74455.814592          NaN                NaN   
+std                     NaN     52815.942327          NaN                NaN   
+min                     NaN         2.136700          NaN                NaN   
+25%                     NaN     34015.480000          NaN                NaN   
+50%                     NaN     70308.210000          NaN                NaN   
+75%                     NaN    107735.512500          NaN                NaN   
+max                     NaN    319210.270000          NaN                NaN   
+
+       case_status  
+count        25480  
+unique           2  
+top      Certified  
+freq         17018  
+mean           NaN  
+std            NaN  
+min            NaN  
+25%            NaN  
+50%            NaN  
+75%            NaN  
+max            NaN  
+
+DUPLICATES:
+0
