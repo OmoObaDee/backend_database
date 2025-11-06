@@ -1,0 +1,57 @@
+{
+  "original_shape": [
+    25480,
+    13
+  ],
+  "final_shape": [
+    25480,
+    32
+  ],
+  "selected_features": [
+    "has_job_experience",
+    "continent_Africa",
+    "continent_Asia",
+    "continent_Europe",
+    "continent_North America",
+    "continent_South America",
+    "education_of_employee_Bachelor'S",
+    "education_of_employee_Doctorate",
+    "education_of_employee_High School",
+    "education_of_employee_Master'S",
+    "region_of_employment_Island",
+    "region_of_employment_Midwest",
+    "region_of_employment_Northeast",
+    "region_of_employment_South",
+    "region_of_employment_West",
+    "unit_of_wage_Hour",
+    "unit_of_wage_Year",
+    "no_of_employees",
+    "yr_of_estab",
+    "prevailing_wage",
+    "no_of_employees_log",
+    "yr_of_estab_log",
+    "prevailing_wage_log",
+    "wage_per_employee",
+    "firm_age"
+  ],
+  "engineered_features": [
+    "has_job_experience",
+    "unit_of_wage_Hour",
+    "unit_of_wage_Year",
+    "prevailing_wage",
+    "no_of_employees_log",
+    "yr_of_estab_log",
+    "prevailing_wage_log",
+    "wage_per_employee"
+  ],
+  "train_samples": 15288,
+  "val_samples": 5096,
+  "test_samples": 5096,
+  "scaling_method": "StandardScaler",
+  "outlier_treatment": "IQR_capping",
+  "log_transformed": [
+    "no_of_employees",
+    "yr_of_estab",
+    "prevailing_wage"
+  ]
+}

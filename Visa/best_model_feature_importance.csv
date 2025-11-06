@@ -1,0 +1,26 @@
+feature,importance
+education_of_employee_High School,0.25378646299009666
+education_of_employee_Master'S,0.13908573171258434
+has_job_experience,0.1312024558038392
+unit_of_wage_Hour,0.08566369684586067
+prevailing_wage_log,0.06193808249709708
+education_of_employee_Doctorate,0.06183493965943726
+prevailing_wage,0.0534127594988708
+education_of_employee_Bachelor'S,0.04611940325342627
+continent_Europe,0.03919798231951193
+unit_of_wage_Year,0.0335091134811345
+wage_per_employee,0.025844724516927986
+region_of_employment_Midwest,0.01517630950391598
+region_of_employment_West,0.008055088684732278
+continent_North America,0.006555969618511526
+continent_Asia,0.006184997598172161
+no_of_employees_log,0.00616464090732091
+no_of_employees,0.0055912784387829794
+yr_of_estab,0.004665122233552839
+firm_age,0.004463535074829367
+yr_of_estab_log,0.003521965277644561
+region_of_employment_South,0.003331200514527427
+region_of_employment_Northeast,0.00269670420912193
+continent_South America,0.0010384537499277418
+continent_Africa,0.00048211083021195013
+region_of_employment_Island,0.00047727077996181645

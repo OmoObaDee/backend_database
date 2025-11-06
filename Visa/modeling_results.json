@@ -1,0 +1,119 @@
+{
+  "best_model": "Random Forest",
+  "best_model_score": 0.6897327293698283,
+  "test_accuracy": 0.7129120879120879,
+  "test_balanced_acc": 0.6772059987832421,
+  "test_f1": 0.6769150732054318,
+  "confusion_matrix": [
+    [
+      966,
+      726
+    ],
+    [
+      737,
+      2667
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "education_of_employee_High School",
+      "importance": 0.25378646299009666
+    },
+    {
+      "feature": "education_of_employee_Master'S",
+      "importance": 0.13908573171258434
+    },
+    {
+      "feature": "has_job_experience",
+      "importance": 0.1312024558038392
+    },
+    {
+      "feature": "unit_of_wage_Hour",
+      "importance": 0.08566369684586067
+    },
+    {
+      "feature": "prevailing_wage_log",
+      "importance": 0.06193808249709708
+    },
+    {
+      "feature": "education_of_employee_Doctorate",
+      "importance": 0.06183493965943726
+    },
+    {
+      "feature": "prevailing_wage",
+      "importance": 0.0534127594988708
+    },
+    {
+      "feature": "education_of_employee_Bachelor'S",
+      "importance": 0.04611940325342627
+    },
+    {
+      "feature": "continent_Europe",
+      "importance": 0.03919798231951193
+    },
+    {
+      "feature": "unit_of_wage_Year",
+      "importance": 0.0335091134811345
+    },
+    {
+      "feature": "wage_per_employee",
+      "importance": 0.025844724516927986
+    },
+    {
+      "feature": "region_of_employment_Midwest",
+      "importance": 0.01517630950391598
+    },
+    {
+      "feature": "region_of_employment_West",
+      "importance": 0.008055088684732278
+    },
+    {
+      "feature": "continent_North America",
+      "importance": 0.006555969618511526
+    },
+    {
+      "feature": "continent_Asia",
+      "importance": 0.006184997598172161
+    },
+    {
+      "feature": "no_of_employees_log",
+      "importance": 0.00616464090732091
+    },
+    {
+      "feature": "no_of_employees",
+      "importance": 0.0055912784387829794
+    },
+    {
+      "feature": "yr_of_estab",
+      "importance": 0.004665122233552839
+    },
+    {
+      "feature": "firm_age",
+      "importance": 0.004463535074829367
+    },
+    {
+      "feature": "yr_of_estab_log",
+      "importance": 0.003521965277644561
+    },
+    {
+      "feature": "region_of_employment_South",
+      "importance": 0.003331200514527427
+    },
+    {
+      "feature": "region_of_employment_Northeast",
+      "importance": 0.00269670420912193
+    },
+    {
+      "feature": "continent_South America",
+      "importance": 0.0010384537499277418
+    },
+    {
+      "feature": "continent_Africa",
+      "importance": 0.00048211083021195013
+    },
+    {
+      "feature": "region_of_employment_Island",
+      "importance": 0.00047727077996181645
+    }
+  ]
+}
